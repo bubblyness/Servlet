@@ -32,7 +32,7 @@ public class ProfileServlet extends HttpServlet {
             }
         }
 
-        response.setContentType("text/html");
+        response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         if (username != null) {
